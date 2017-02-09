@@ -1,7 +1,7 @@
 ## Application Description
-
+<dt>
 Web Application monitors a patient who is under Intensive care unit of the hospital. It will store the readings of the specific equipments of the patient and would help the doctor to understand the behaviour. Also, in case of any emergency it will give an alert to the doctor in the form of email, if any reading is above certain threshold value. Equipments vary with the room type. Equipments are specific to the medical condition, patient is suffering with. As soon as a patient is admitted to an ICU (Intensive Care Unit), they would be admitted to a specific room with the equipments based on their illness. The room will have its own equipments, that record the readings at regular intervals. Patient has certain doctors assigned to them, doctors can remotely monitor their patients.
-
+</dt>
  ## Databases
  
  In web application we have two types of databases i.e Operational database (MySQl) and Analytical Database (MySQL). We have used two health datasets in web application, one is XML based and other is JSON based stored in mongoDB. This represent the multiple sources of database. We used php, mysql and apache to make a web app that drives operational data interactions and mongoDb, xml, and json data for analytical interactions. Php pages include html forms for input, and  html tables for displaying tabular output data, such as search results of find a doctor module. All php pages use php’s PDO module for database interaction, make use of prepared sql statements and bound parameters to avoid sql injection. We also used database transactions to make sure that all operations function atomically. It helps in the way that if an error occurs in the middle of a series of sql statements, database wouldn’t be left in an inconsistent state.
@@ -68,4 +68,3 @@ XML, CSV
 ```
 
 ## ER Diagram
-
